@@ -24,7 +24,7 @@ Users of this software are expected to use this software responsibly while abidi
 #### 3. Download Models
 
  1. [GFPGANv1.4](https://huggingface.co/hacksider/deep-live-cam/resolve/main/GFPGANv1.4.pth)
- 2. [inswapper_128_fp16.onnx](https://huggingface.co/hacksider/deep-live-cam/resolve/main/inswapper_128_fp16.onnx)
+ 2. [inswapper_128.onnx](https://huggingface.co/hacksider/deep-live-cam/resolve/main/inswapper_128.onnx)
 
 Then put those 2 files on the "**models**" folder
 
@@ -33,6 +33,7 @@ We highly recommend to work with a  `venv`  to avoid issues.
 ```
 pip install -r requirements.txt
 ```
+#### 5. Run the app
 ```
 python run.py --execution-provider coreml
 python run.py
